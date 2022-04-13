@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.redes {
+    width: 30px;
+}
+
+section {
+    background-image: url(https://www.cronista.com/files/image/452/452986/6235fa764a52b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px 130px 30px 130px;
+    
+}
+
+section article {
+    background-image: linear-gradient(rgba(210, 105, 30, 0.817), rgba(255, 0, 0, 0.806));
+    /* padding: 20px 50px 100px 50px; */
+    margin-bottom: 20px;
+
+}
+
+section article h3 {
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+section article p {
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.imagenmediana {
+    width: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1 {
+    color: deeppink;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    word-spacing: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: darkviolet;    
+}
+
+h2 {
+    color: greenyellow;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+p {
+/*     color: rgb(238, 213, 144); font-size: 16px; */
+}
+
+.parrafo {
+    color:aqua;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    word-spacing: 5px;
+    padding: 5px;
+}
+
+
+
+.negritaSansserif{
+    font-weight: bold;
+    font-family: Impact, sans-serif;
+}
+
+.centrar {
+    /* text-align: center; */
+    display: flex; 
+    justify-content: end;
+}
+
+.end {
+    text-align: end;
+    /* display: flex;
+    justify-content: end; */
+}
+
+a {
+    text-decoration: none;
+    color: deeppink;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+    
+}
+
+ul {
+    background-color: aqua;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    color: deeppink;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px; 
+}
+
+table {
+    background-color: aqua;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;     
+
+}
+
+.encabezadocontacto {
+background-color: darkviolet;
+text-decoration: underline;
+color: deeppink;
+font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-size: 20px; 
+width: 340px;
+}
+
+.centrartodo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.galeria {
+    width: 100%;
+    margin-right: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeriaimg {
+    width: 100%;
+}
+
+.galeriatitulo {
+    text-transform: uppercase;
+}
+
+.galeriadesc {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;     
+}
+
+
+
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav lineup lineup"
+    "nav lineup lineup"
+    "nav footer footer";
+    grid-template-rows: 100% 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    /* grid-gap: 10px 10px; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.fondogrid {
+    background-image: linear-gradient(rgba(210, 105, 30, 0.813), rgba(255, 0, 0, 0.751));
+    height: 250px;
+}
+
+.parrafosanitarias {
+    color:aqua;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* .translate {
+
+    transform: translate(50px, 0px);
+} */
+
+main div div:hover {
+    width: 120%;
+    height: 120%;
+    transition: all;
+}
+
+.transicion1 {
+    height: 200px;
+    width: 200px;
+    transition: height 2s, width 3s;
+}
+
+.transicion1:hover {
+    height: 350px;
+    width: 350px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.transicion2 {
+    height: 500px;
+    width: 500px;
+    transition: height 2s, width 3s;
+}
+
+.transicion2:hover {
+    height: 550px;
+    width: 550px;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+/* .transicion:hover {
+    height: auto;
+    width: auto;
+} */
+
+
+
+/* .tituloNoticias {
+    border-radius: 10px; */
+
+}
+
+/* .bordesredondeados {
+    border-radius: 20px; */
+}
+
+/* .bordesarticulos {
+    border-radius: 10px; */
+}
