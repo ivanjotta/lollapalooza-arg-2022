@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.colorfondo {
+    background-image: linear-gradient(rgb(0, 162, 255),rgb(238, 157, 130));
+}
+
+.letralineup {
+    color: rgb(225, 0, 255);
+}
+
+.letradia {
+    color: orangered;
+}
+
+.imagenfondo {
+    background-image: url(/images/imagenfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
