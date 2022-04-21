@@ -78,10 +78,6 @@ h2 {
     padding: 5px;
 }
 
-p {
-/*     color: rgb(238, 213, 144); font-size: 16px; */
-}
-
 .parrafo {
     color:aqua;
     font-family: 'Oswald', sans-serif;
@@ -253,25 +249,4 @@ main div div:hover {
     color: white;
     font-size: 18px;
 
-}
-
-
-/* .transicion:hover {
-    height: auto;
-    width: auto;
-} */
-
-
-
-/* .tituloNoticias {
-    border-radius: 10px; */
-
-}
-
-/* .bordesredondeados {
-    border-radius: 20px; */
-}
-
-/* .bordesarticulos {
-    border-radius: 10px; */
 }

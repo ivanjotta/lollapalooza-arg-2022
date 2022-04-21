@@ -1,0 +1,19 @@
+{
+  "name": "pagina-lollapalooza-2022---ivan-jotta-desafio-12.04-animado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanjotta/lollapalooza-arg-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanjotta/lollapalooza-arg-2022/issues"
+  },
+  "homepage": "https://github.com/ivanjotta/lollapalooza-arg-2022#readme"
+}
