@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    p {
+        color: white;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    }
+}
+
+section {
+    background-image: url(https://www.cronista.com/files/image/452/452986/6235fa764a52b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px 130px 30px 130px;
+}
+
+
+
+.centrar {
+    /* text-align: center; */
+    display: flex; 
+    justify-content: end;
+}
+
+.end {
+    text-align: end;
+    /* display: flex;
+    justify-content: end; */
+}
+
+.centrartodo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.galeria {
+    width: 100%;
+    margin-right: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeriaimg {
+    width: 100%;
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav lineup lineup"
+    "nav lineup lineup"
+    "nav footer footer";
+    grid-template-rows: 100% 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    /* grid-gap: 10px 10px; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+main div div:hover {
+    width: 120%;
+    height: 120%;
+    transition: all;
+}
+
+.transicion1 {
+    height: 200px;
+    width: 200px;
+    transition: height 2s, width 3s;
+}
+
+.transicion1:hover {
+    height: 350px;
+    width: 350px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.transicion2 {
+    height: 500px;
+    width: 500px;
+    transition: height 2s, width 3s;
+}
+
+.transicion2:hover {
+    height: 550px;
+    width: 550px;
+    color: white;
+    font-size: 18px;
+
+}
+    
