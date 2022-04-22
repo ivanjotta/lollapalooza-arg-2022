@@ -58,7 +58,7 @@ section article p {
     margin-right: 5px;
 }
 
-h1 {
+/* h1 {
     color: deeppink;
     font-family: 'Oswald', sans-serif;
     font-family: 'Quicksand', sans-serif;
@@ -68,14 +68,14 @@ h1 {
     padding: 5px;
     text-align: center;
     background-color: darkviolet;    
-}
+} */
 
 h2 {
     color: greenyellow;
     font-family: 'Oswald', sans-serif;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 5px, 5px, 5px, 5px;
 }
 
 .parrafo {
@@ -106,22 +106,22 @@ h2 {
     justify-content: end; */
 }
 
-a {
+/* a {
     text-decoration: none;
     color: deeppink;
     font-family: 'Oswald', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-size: 26px;
     
-}
+} */
 
-ul {
+.ulentradas {
     background-color: aqua;
     list-style: none;
     text-align: center;
 }
 
-li {
+.lientredas {
     text-decoration: none;
     color: deeppink;
     font-family: 'Oswald', sans-serif;
@@ -146,6 +146,19 @@ font-family: 'Quicksand', sans-serif;
 font-size: 20px; 
 width: 340px;
 }
+
+.galerianav {
+background-color: darkviolet;
+text-decoration: underline;
+color: deeppink;
+font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-size: 20px; 
+width: 100%;
+    
+
+}
+
 
 .centrartodo {
     display: flex;
@@ -249,4 +262,25 @@ main div div:hover {
     color: white;
     font-size: 18px;
 
+}
+
+/* css2 */
+
+.colorfondo {
+    background-image: linear-gradient(rgb(0, 162, 255),rgb(238, 157, 130));
+}
+
+.letralineup {
+    color: rgb(225, 0, 255);
+}
+
+.letradia {
+    color: orangered;
+}
+
+.imagenfondo {
+    background-image: url(/images/imagenfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
