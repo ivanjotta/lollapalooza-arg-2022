@@ -81,11 +81,11 @@ section {
     grid-row-gap: 10px;
 }
 
-main div div:hover {
-    width: 120%;
-    height: 120%;
-    transition: all;
-}
+// main div div:hover {
+//     width: 120%;
+//     height: 120%;
+//     transition: all;
+// }
 
 .transicion1 {
     height: 200px;
@@ -114,4 +114,12 @@ main div div:hover {
     font-size: 18px;
 
 }
+
+.galeriaimgborde {
+    @extend .galeriaimg;
+    padding: 5px, 5px, 5px, 5px;
+    border-radius: 20px;
+}
+
+
     

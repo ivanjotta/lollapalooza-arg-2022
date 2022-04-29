@@ -42,7 +42,7 @@ section {
   display: flex;
   flex-wrap: wrap; }
 
-.galeriaimg {
+.galeriaimg, .galeriaimgborde {
   width: 100%; }
 
 #grilla {
@@ -62,11 +62,6 @@ section {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px; }
-
-main div div:hover {
-  width: 120%;
-  height: 120%;
-  transition: all; }
 
 .transicion1 {
   height: 200px;
@@ -89,6 +84,10 @@ main div div:hover {
   width: 550px;
   color: white;
   font-size: 18px; }
+
+.galeriaimgborde {
+  padding: 5px, 5px, 5px, 5px;
+  border-radius: 20px; }
 
 section article {
   background-image: linear-gradient(rgba(210, 105, 30, 0.817), rgba(255, 0, 0, 0.806));
@@ -124,6 +123,10 @@ section article h3 {
   color: aqua;
   font-family: 'Oswald', sans-serif;
   font-family: 'Quicksand', sans-serif; }
+
+.estilosanitarias {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace; }
 
 .redes {
   width: 30px; }
